@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">42 Translate</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="admin">Admin</string>
+    <string name="content_manager">Content Manager</string>
+    <string name="user">General User</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="reg">Register</string>
+    <string name="title_activity_post"></string>
+
+    <string-array name="languages_action">
+        <item>Kamba</item>
+        <item>Kisii</item>
+        <item>Kikuyu</item>
+        <item>Bukusu</item>
+        <item>Maragoli</item>
+        <item>Dholuo</item>
+        <item>Naandi</item>
+        <item>Marakwet</item>
+        <item>Nubi</item>
+        <item>Nyole</item>
+        <item>Sheng slang</item>
+        <item>Taita</item>
+        <item>Somali</item>
+        <item>Borana</item>
+    </string-array>
+    <string-array name="items">
+        <item>Word</item>
+        <item>Phrase</item>
+        <item>Saying</item>
+        <item>Lyrics</item>
+    </string-array>
+    <string name="title_activity_page_post_display">PagePostDisplay</string>
+    <string name="title_activity_test">Sign in</string>
+    <string name="email">Email</string>
+    <string name="dialog_text">Delete???</string>
+    <string name="dialog_title">This Delete</string>
+    <string name="title_activity_admin">Admin</string>
+</resources>

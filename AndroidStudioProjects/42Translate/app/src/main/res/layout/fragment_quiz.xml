@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context="com.example.noka.a42translate.Lyrics"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Choose your language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChoose" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerLang"
+            android:textAlignment="center"/>
+
+        <Button
+            android:text="Request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRqst"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/txtansQuiz" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQuiz" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtOutcome" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Retake"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRetake"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColorLink="@android:color/holo_green_dark"
+                tools:style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColor="@android:color/holo_green_dark" />
+            <Button
+                android:text="Exit"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExit"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColorLink="@android:color/holo_red_dark"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </GridLayout>
+
+
+    </LinearLayout>
+</ScrollView>

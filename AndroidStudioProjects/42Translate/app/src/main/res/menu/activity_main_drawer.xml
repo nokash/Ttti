@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login_form"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Log In" />
+        <item
+            android:id="@+id/words"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Words" />
+        <item
+            android:id="@+id/phrases"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:title="Phrases" />
+        <item
+            android:id="@+id/saying"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Sayings" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/forum"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Forum" />
+            <item
+                android:id="@+id/lyrics"
+                android:icon="@drawable/ic_music_note_black_24dp"
+                android:title="Lyrics" />
+            <item
+                android:id="@+id/admin"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Admin" />
+
+        </menu>
+    </item>
+
+</menu>
